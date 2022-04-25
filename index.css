@@ -1,0 +1,329 @@
+html {
+    scroll-behavior: smooth;
+  }
+#Navbar{
+    display: flex;
+    width: 100%;
+    height: 5%;
+    background-color: #0B0C10;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom:0.8rem;
+    border-bottom: 1px solid #a5faf4;
+}
+#Navbar>div>a{
+    color: #a5faf4;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 549;
+    margin-right: 3.1rem;
+    margin-top: 0.8rem;
+}
+#Navbar>div>a:hover{
+    text-decoration: underline;
+    color: #5CDB95;
+}
+#Navbar>div{
+    margin-top: 0.5rem;
+}
+#Navbar>div:nth-child(1){
+    color:#a5faf4 ;
+    margin-right:55rem ;
+    margin-top: -0rem;
+    font-weight: 650;
+    font-size: 1.75rem;
+}
+
+.nav_name{
+    color: grey;
+    font-size: 1.75rem;
+}
+body{
+    background-color:#0B0C10 ;
+}
+
+#home_el{
+    margin-top: 3rem;
+    height: 7rem;
+    /* border:1px solid white; */
+}
+#about_el{
+    height: 2.5rem;
+    /* border:1px solid white; */
+    
+    margin-top: 1rem;
+}
+#about{
+    margin-top: 1rem;
+    /* border:2px solid white; */
+    margin-left: 8rem;
+}
+#about_div{
+    color: #a5faf4;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+#intro>p:nth-child(1){
+    font-size: 2rem;
+    font-weight: 550;
+    color: #5CDB95;
+}
+#intro>p:nth-child(2){
+    font-size: 8rem;
+    font-weight: 550;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+#intro>p:nth-child(3){
+    font-size: 2.1rem;
+    font-weight: 550;
+    color:#66FCF1;
+}
+#intro>p{
+   margin: 0rem;
+}
+#about_links{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 0.2rem;
+}
+#about_links>button{
+    background-color: #30333f;
+    width: 6rem;
+    border-radius: 0.4rem;
+    border: none;
+   padding: 0.2rem 1rem;
+    margin-right: 2rem;
+    border: 2px solid red;
+}
+
+#about_links>button:hover{
+    background-color: #5accc5;
+}
+#aboutme{
+    margin-top: 16rem;
+    margin-left: 4rem;
+    color:white;
+    font-family: 'PT Sans', sans-serif;
+}
+#aboutmediv{
+    display: flex;
+    border-left: 2px solid whitesmoke;
+    padding-top:3.5rem ;
+    padding-bottom: 3.5rem;
+    margin-left: 4rem;
+    padding-left: 4rem;
+}
+#aboutme_left_img{
+    width: 20rem;
+    border-radius: 2rem;
+}
+#aboutme_right{
+    /* border:2px solid white; */
+    width: 40rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+   line-height: 2rem;
+    margin-left: 7rem;
+    color: #66FCF1;
+}
+.headings{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #45A29E;
+}
+#skill_el{
+    height: 3rem;
+    /* border:1px solid white; */
+    margin-top: 5rem;
+}
+#profic{
+    margin-top: 2rem;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 4rem;
+}
+.skill{
+    display: flex;
+    
+    flex-direction: row;
+}
+#skill_div{
+    margin-left: 4rem;
+    padding-left: 3.5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    border-left: 2px solid whitesmoke;
+}
+.skills{
+    margin-right: 2.8rem;
+    align-items: center;
+    text-align: center;
+    background-color: #1F2833;
+    width:6rem;
+    padding: 0.8rem 1rem 0.1rem 1rem;
+    border-radius: 4rem;
+}
+#project_el{
+    margin-top: 2rem;
+    height: 4rem;
+}
+#projects{
+    margin-top: 3.5rem;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 4rem;
+    color:#66FCF1;
+}
+#project_div{
+    border-left: 2px solid whitesmoke;
+    margin-left: 4rem;
+    padding-left: 2.5rem;
+}
+#project_div>div{
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+}
+.project_img>img{
+    width: 33.5rem;
+    border-radius: 1rem;
+}
+.project_details{
+    width: 40rem;
+    border: 1px solid white;
+    margin-left: 1rem;
+    padding-left: 2rem;
+    
+}
+.project_details>p:nth-child(1){
+    font-size: 1.8rem;
+    font-weight: 600;
+    color:#5CDB95;
+}
+.project_details>p:nth-child(2){
+    font-size: 1.2rem;
+}
+.project_details>div>p{
+    font-size: 1.2rem;
+}
+.techstack{
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+.links{
+    display: flex;
+}
+.links>a:nth-child(2){
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.links>a:nth-child(2):hover{
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+    border-radius: 50%;
+    background-color: #05386B;
+}
+.links>a:nth-child(3):hover{
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+    border-radius: 50%;
+    background-color: #05386B;
+}
+#contact_el{
+    margin-top: 1.5rem;
+    height: 5rem;
+}
+#contacts{
+    margin-top: 3.5rem;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 4rem;
+    color:#66FCF1;
+}
+#contact_div{
+    border-left: 2px solid whitesmoke;
+    padding-left: 4rem;
+    margin-left: 4rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+.basic_contact{
+    width: 30rem;
+    border: 1px solid white;
+}
+.basic_contact>div:nth-child(1){
+    margin-right: 2rem;
+}
+.basic_contact>div:nth-child(2)>p:nth-child(1){
+    font-size: 1.4rem;
+    font-weight: 550;
+    color: #5CDB95;
+}
+.basic_contact>div:nth-child(2)>p:nth-child(2){
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#contact_div>div{
+    display: flex;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+#social_btns>button{
+    background-color: #30333f;
+    width: 6rem;
+    border-radius: 0.4rem;
+    border: none;
+   padding: 0.2rem 1rem;
+    margin-right: 2rem;
+    border: 2px solid red;
+}
+#social_btns>button:hover{
+    background-color: #5accc5;
+}
+.basic_contact_img{
+    margin-top: 1.5rem;
+}
+
+#final{
+    margin-top: 10rem;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 4rem;
+    color:#66FCF1;
+    margin-left: 35rem;
+    padding-bottom: 4rem;
+}
+#final_span{
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: #5CDB95;
+}
+#final>p{
+  font-size: 1.1rem;
+}
+.resume_btn{
+    width: 10rem;
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 550;
+    border:2px solid #5CDB95 ;
+    background-color: #0B0C10;
+    color:#5CDB95  ;
+    border-radius: 0.2rem;
+}
+.resume_btn:hover{
+    background-color: aquamarine;
+    color: midnightblue;
+    border: 2px solid midnightblue;
+}
+/* font-family: 'Lavishly Yours', cursive; */
